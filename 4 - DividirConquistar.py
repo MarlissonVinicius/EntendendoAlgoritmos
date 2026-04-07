@@ -4,13 +4,13 @@ def SomarArrayIte(nums):
         acum+=nums[i]
     return acum
 
-def SomarArrayRecur(nums):
+def SomarArrayRecursiva(nums):
     #caso base - quando o array estiver vazio
     if len(nums) == 0:
         return 0
     #caso recursivo
     else:
-        return nums[0] + SomarArrayRecur( nums[1:])
+        return nums[0] + SomarArrayRecursiva( nums[1:])
 
 def contItens(list,cont=0):
     if(len(list) == 0):
