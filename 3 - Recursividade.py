@@ -31,6 +31,6 @@ def fatorialCauda(num,acum):
         return(fatorialCauda(num-1,acum*num))
 
 def Main():
-    print(fatorial(4))
+    print(fatorial())
 
 Main()
